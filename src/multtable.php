@@ -20,16 +20,20 @@ $max_mult = $_GET['max-multiplier'];
 
 //checks to see if any of the parameters are missing
 if(!isset($min)){
-	echo "Missing parameter min-multiplicand.\n";
+	echo "Missing parameter min-multiplicand.";
+	echo "<br>";
 }	
 if(!isset($max)){
 	echo "Missing parameter max-multiplicand.\n";
+	echo "<br>";
 }	
 if(!isset($min_mult)){
 	echo "Missing parameter min-multiplier.\n";
+	echo "<br>";
 }	
 if(!isset($max_mult)){
 	echo "Missing parameter max-multiplier.\n";
+	echo "<br>";
 }	
 if(!isset($min) || !isset($max) || !isset($min_mult) || !isset($max_mult)){
 	return;
